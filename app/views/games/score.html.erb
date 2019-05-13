@@ -1,0 +1,26 @@
+<h1>Games#score</h1>
+<p>Find me in app/views/games/score.html.erb</p>
+
+<!-- REMINDER OF YOUR WORD -->
+<p><strong>Your word:</strong></p>
+<%= @word %>
+
+<!-- REMINDER OF THE GRID -->
+<p><strong>Reminder of the grid:</strong></p>
+<%= @grid  %>
+
+<!-- COUNT LETTERS -->
+<p>Count letters within grid:</p>
+<%= @count_letters %>
+
+<!-- SCORE -->
+<p><strong>Your score:</strong></p>
+<%= @score_message  %>
+<p></p>
+
+
+<!-- NEW GAME -->
+
+<%= link_to "New game", new_path  %>
+
+<p>A page receiving this form, computing the user score and displaying it.</p>
